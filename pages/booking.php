@@ -134,6 +134,16 @@
             </div>
 
             <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tanggal">Tanggal Lahir:</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+            </div>
+
+            <div class="form-group">
                 <label for="kewarganegaraan">Kewarganegaraan:</label>
                 <input type="text" id="kewarganegaraan" name="kewarganegaraan" required>
             </div>
@@ -141,6 +151,11 @@
             <div class="form-group">
                 <label for="paspor">No Paspor:</label>
                 <input type="text" id="paspor" name="paspor" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tanggal_habis">Tanggal Habis Berlaku Paspor:</label>
+                <input type="date" id="tanggal_habis" name="tanggal_habis" required>
             </div>
 
             <div class="form-group">
@@ -162,6 +177,7 @@
 
             <input type="submit" value="Pesan Sekarang">
         </form>
+        <br>
     </section>
 </body>
 </html>
