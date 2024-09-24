@@ -4,7 +4,8 @@ include '../include/header.php';
 <section>
     <h2>Available Holiday Packages</h2>
     <div class="paket">
-    <div class="paket-item">
+        <div class="paket-item">
+            <img src="https://th.bing.com/th/id/OIP.o0lepQUkz2e3HIQM0X5eCwHaFj?rs=1&pid=ImgDetMain" alt="Paket Wisata Jepang" width="250px">
             <h3>Osaka Holiday Package & Universal Studio Japan (6D5N)</h3>
             <p> <i class="fa fa-ticket"></i>> The entry ticket for Universal Studios Japan comes with selectable package options: either just the Universal Studios Japan ticket or the "Have Fun in Kansai Pass" bundle.</p>
             <p> <i class="fa fa-bed"></i> 5 Days 4 Nights Hotel Stay </p>
@@ -22,6 +23,7 @@ include '../include/header.php';
             <a href="booking.php" class="btn">Book Now</a>
         </div>
         <div class="paket-item">
+            <img src="https://th.bing.com/th/id/OIP.yMP2uX00Ppyh3Dh7wnqdFwHaE7?w=1024&h=681&rs=1&pid=ImgDetMain" alt="Paket Wisata Swiss" width="280px">
             <h3>Swiss Holiday Package & Snow in Mount Titlis (9D8N)</h3>
             <p> <i class="fa fa-ticket"></i> Take a cable car to the summit of Mount Titlis, enjoy skiing & snow tubing, explore the glacier cave, and soak in the iconic scenery during the journey from Zurich.</p>
             <p> <i class="fa fa-bed"></i> 8 Days 7 Nights Hotel Stay </p>
@@ -39,6 +41,7 @@ include '../include/header.php';
             <a href="booking.php" class="btn">Book Now</a>
         </div>
         <div class="paket-item">
+            <img src="https://th.bing.com/th/id/OIP.MpPJyeEIT5RPw0uurbElqgAAAA?rs=1&pid=ImgDetMain" alt="Paket Wisata Hongkong" width="240px">
             <h3>Hongkong Holiday Package & Disneyland Hongkong (5D4N)</h3>
             <p> <i class="fa fa-ticket"></i> The entry ticket to Hong Kong Disneyland includes access to the World of Frozen and a 2-in-1 meal package from Disneyland. Enjoy the excitement of the rides available at Disneyland!</p>
             <p> <i class="fa fa-bed"></i> 4 Days 3 Nights Hotel Stay </p>
@@ -54,7 +57,6 @@ include '../include/header.php';
             </div>
             <br>
             <a href="booking.php" class="btn">Book Now </a>
-        </div>
         </div>
     </div>
 </section>
