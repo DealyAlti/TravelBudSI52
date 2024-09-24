@@ -58,6 +58,60 @@ include '../include/header.php';
             <br>
             <a href="booking.php" class="btn">Book Now </a>
         </div>
+        <div class="paket-item">
+            <img src="https://www.journeywonders.com/wp-content/uploads/2019/04/The-otherwordly-beauty-of-Jeju-Island-South-Korea.jpg" alt="Paket Wisata Jeju" width="250px">
+            <h3>Island Jeju South Korea Holiday Package (5D4N)</h3>
+            <p> <i class="fa fa-ticket"></i> A one-day tour to Camellia Hill, Cheonjeyeon Waterfall, Jusangjeollidae, Osulloc Tea Museum, and Handam Coastal Trail.</p>
+            <p> <i class="fa fa-bed"></i> 4 Days 3 Nights Hotel Stay </p>
+            <p> <i class="fas fa-plane"></i> Round-Trip Flight </p>
+            <hr>
+            <div class="price-row">
+                <p style="color: gray;"><strong>Recommended</strong></p>
+                <p style="color: gray;"><strong>Price</strong></p>
+            </div>
+            <div class="price-row">
+                <p><i class="fas fa-calendar-alt"></i> <strong>21-25 October 2024</strong></p>
+                <p style="color: red"><strong>Rp 7.410.000</strong>/pax</p>
+            </div>
+            <br>
+            <a href="booking.php" class="btn">Book Now</a>
+        </div>
+        <div class="paket-item">
+            <img src="https://th.bing.com/th/id/OIP.544cvyEs4Zf3nmbkJCn8AgAAAA?rs=1&pid=ImgDetMain" alt="Paket Wisata Sydney" width="265px">
+            <h3>Sydney Holiday Package & Sydney Dinner Cruise (8D7N)</h3>
+            <p> <i class="fa fa-ticket"></i> Two options are available: the Gold Penfolds Dinner Cruise in Sydney and the Starlight Dinner 2-Hour Cruise in Sydney.</p>
+            <p> <i class="fa fa-bed"></i> 7 Days 6 Nights Hotel Stay </p>
+            <p> <i class="fas fa-plane"></i> Round-Trip Flight </p>
+            <hr>
+            <div class="price-row">
+                <p style="color: gray;"><strong>Recommended</strong></p>
+                <p style="color: gray;"><strong>Price</strong></p>
+            </div>
+            <div class="price-row">
+                <p><i class="fas fa-calendar-alt"></i> <strong>19-26 November 2024</strong></p>
+                <p style="color: red"><strong>Rp 16.530.000</strong>/pax</p>
+            </div>
+            <br>
+            <a href="booking.php" class="btn">Book Now</a>
+        </div>
+        <div class="paket-item">
+            <img src="https://breathingtravel.com/wp-content/uploads/2023/09/Where-to-stay-in-Phi-Phi-islands.jpg" alt="Paket Wisata Phuket" width="205px">
+            <h3>Phuket Holiday Package, Phi Phi & Khai Island (5D4N)</h3>
+            <p> <i class="fa fa-ticket"></i>A one-day tour package that can be chosen: Khai Nai Island, Maya Bay, Pileh Lagoon, & other locations such as Ton Sai Bay & Andaman Sea.</p>
+            <p> <i class="fa fa-bed"></i> 4 Days 3 Nights Hotel Stay </p>
+            <p> <i class="fas fa-plane"></i> Round-Trip Flight </p>
+            <hr>
+            <div class="price-row">
+                <p style="color: gray;"><strong>Recommended</strong></p>
+                <p style="color: gray;"><strong>Price</strong></p>
+            </div>
+            <div class="price-row">
+                <p><i class="fas fa-calendar-alt"></i> <strong>4-8 December 2024</strong></p>
+                <p style="color: red"><strong>Rp 4.030.000</strong>/pax</p>
+            </div>
+            <br>
+            <a href="booking.php" class="btn">Book Now</a>
+        </div>
     </div>
 </section>
 <?php
