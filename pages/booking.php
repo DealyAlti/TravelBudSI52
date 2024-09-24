@@ -113,8 +113,8 @@
 <body>
     <section>
         <h2>Form Pemesanan</h2>
-        <p >Penting: Paspor dengan masa berlaku minimal 6 bulan dari tanggal keberangkatan dibutuhkan untuk rute transit ke luar negeri. Jika masa berlaku paspor anda habis kurang dari 6 bulan sebelum tanggal keberangkatan, Anda tetap dapat melanjutkan pemesanan.</p>
-        <p >Pastikan nama penumpang persis dengan yang tertulis di KTP/ Paspor / SIM yang dikeluarkan oleh pemerintah. Hindari kesalahan apa pun, karena beberapa maskapai tidak mengizinkan koreksi nama setelah pemesanan.</p>
+        <p style="color: green;">Penting: Paspor dengan masa berlaku minimal 6 bulan dari tanggal keberangkatan dibutuhkan untuk rute transit ke luar negeri. Jika masa berlaku paspor anda habis kurang dari 6 bulan sebelum tanggal keberangkatan, Anda tetap dapat melanjutkan pemesanan.</p>
+        <p style="color: red;">Pastikan nama penumpang persis dengan yang tertulis di KTP/ Paspor / SIM yang dikeluarkan oleh pemerintah. Hindari kesalahan apa pun, karena beberapa maskapai tidak mengizinkan koreksi nama setelah pemesanan.</p>
         <br>
         <form action="confirmation.php" method="post">
             <div class="form-group">
@@ -181,7 +181,7 @@
             <input type="submit" value="Pesan Sekarang">
         </form>
         <br>
-        <p >Setelah mengisi form di atas, kami akan mengkonfirmasi pemesanan Anda melalui no handphone dan email. Pastikan untuk memeriksa no handphone dan email sudah betul Anda untuk informasi lebih lanjut.</p>
+        <p style="color: green;">Setelah mengisi form di atas, kami akan mengkonfirmasi pemesanan Anda melalui no handphone dan email. Pastikan untuk memeriksa no handphone dan email sudah betul Anda untuk informasi lebih lanjut.</p>
     </section>
 </body>
 </html>
