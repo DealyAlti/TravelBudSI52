@@ -25,6 +25,7 @@
             overflow: hidden;
             background-size: cover; 
             background-position: center; 
+            transition: background-image 1s ease-in-out; 
         }
 
         .overlay {
@@ -46,10 +47,15 @@
             font-size: 4rem;
             margin-bottom: 20px;
             letter-spacing: 2px;
-
-
+            opacity: 0; 
+            animation: fadeIn 3s forwards 0.5s;
         }
 
+        @keyframes fadeIn {
+            to {
+                opacity: 1; 
+            }
+        }
 
         .btn-start {
             display: inline-block;
@@ -60,7 +66,8 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-
+            opacity: 0; 
+            animation: fadeIn 3s forwards 0.5s;
         }
 
         .btn-start:hover {
@@ -81,7 +88,9 @@
             'https://s3.bukalapak.com/uploads/content_attachment/388497bd10e8d76292e1d1c5/original/shutterstock_725803120-2.jpg',
             'https://th.bing.com/th/id/R.9a0e1f44dfd8c8f05797f474e6c5f9b6?rik=EjohaiGIv12UfQ&riu=http%3a%2f%2fawoisoak.com%2fwp-content%2fuploads%2f2017%2f09%2fdsc06446_lzn.jpg&ehk=IMJ0ogPmQ61ISbhUWKAXktCBcoxm3izT51dP4nPLDlQ%3d&risl=&pid=ImgRaw&r=0',
             'https://www.miamitour.it/wp-content/uploads/2020/09/Universal-Orlando-1.jpg',
- 
+            'https://www.tripsavvy.com/thmb/L4R1vf6Y-G4ppPgfxHKw4BA2dc8=/2121x1414/filters:fill(auto,1)/GettyImages-4894349271-59e8e9a8d088c000119103c6.jpg',
+            'https://www.goatsontheroad.com/wp-content/uploads/2018/11/places-to-visit-in-seoul.jpg',
+            'https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/05/12104337/hkdisneyland-world-of-frozen-1600x900.jpg'  
         ];
 
         let currentIndex = 0;
