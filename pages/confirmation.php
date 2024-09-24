@@ -50,6 +50,7 @@
 
         p {
             font-size: 18px;
+            color: #555;
             margin-bottom: 15px;
             line-height: 1.5;
         }
@@ -108,11 +109,11 @@
 
 <section>
     <h2>Konfirmasi Pemesanan</h2>
-    <p>Terima kasih, <?php echo htmlspecialchars($_POST['title']); ?>. <?php echo htmlspecialchars($_POST['nama']); ?>!</p>
-    <p>Anda telah memesan <?php echo htmlspecialchars($_POST['paket']); ?> dengan tanggal keberangkatan pada <?php echo htmlspecialchars($_POST['tanggal']); ?>.</p>
-    <p>Untuk info lebih lanjut tentang pemesanan akan dikirim melalui :  <?php echo htmlspecialchars($_POST['handphone']); ?>.</p>
+    <p>Terima kasih, <strong><?php echo htmlspecialchars($_POST['title']); ?>. <?php echo htmlspecialchars($_POST['nama']); ?></strong>!</p>
+    <p>Anda telah memesan <strong><?php echo htmlspecialchars($_POST['paket']); ?></strong> dengan tanggal keberangkatan pada <strong><?php echo htmlspecialchars($_POST['tanggal']); ?></strong>.</p>
+    <p>Untuk info lebih lanjut tentang pemesanan akan dikirim melalui :  <strong><?php echo htmlspecialchars($_POST['handphone']); ?>.</p>
     <p>Kami akan menghubungi Anda untuk informasi pembayaran lebih lanjut.</p>
-
+    <br>
     <a href="home.php" class="button">Kembali ke Halaman Utama</a>
 </section>
 
